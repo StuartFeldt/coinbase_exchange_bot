@@ -18,6 +18,10 @@ var order = sql.define({
       primaryKey: true
     },
     {
+      name: 'product_id',
+      dataType: 'varchar(10)'
+    },
+    {
       name: 'type',
       dataType: 'varchar(10)'
     },
